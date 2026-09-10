@@ -3,6 +3,7 @@ backports-datetime-fromisoformat==2.0.3
 black==26.5.1
 click==8.5.0
 crispy-bootstrap5==2024.2
+dj-database-url==3.1.2
 Django==5.2.17
 django-crispy-forms==2.2
 environs==15.2.0
