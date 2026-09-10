@@ -28,7 +28,7 @@ SECRET_KEY = env.str("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool("DEBUG",default=False)
 
-ALLOWED_HOSTS = [".herokuapp.com","localhost","127.0.0.1"]
+ALLOWED_HOSTS = [".onrender.com",,"localhost","127.0.0.1"]
 
 
 # Application definition
@@ -147,4 +147,6 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5" # new
 CRISPY_TEMPLATE_PACK = "bootstrap5" # new
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
-CSRF_TRUSTED_ORIGINS = ["https://*.herokuapp.com"]
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.onrender.com",
+]
